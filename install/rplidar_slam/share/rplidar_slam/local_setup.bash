@@ -1,0 +1,1 @@
+/home/abhay/rplidar_slam_ws/build/rplidar_slam/ament_cmake_environment_hooks/local_setup.bash

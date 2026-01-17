@@ -1,0 +1,190 @@
+[0.000000] (-) TimerEvent: {}
+[0.000570] (rplidar_slam) JobQueued: {'identifier': 'rplidar_slam', 'dependencies': OrderedDict()}
+[0.001258] (rplidar_slam) JobStarted: {'identifier': 'rplidar_slam'}
+[0.019859] (rplidar_slam) JobProgress: {'identifier': 'rplidar_slam', 'progress': 'cmake'}
+[0.024309] (rplidar_slam) Command: {'cmd': ['/usr/bin/cmake', '/home/abhay/rplidar_slam_ws/src/rplidar_slam', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/abhay/rplidar_slam_ws/install/rplidar_slam'], 'cwd': '/home/abhay/rplidar_slam_ws/build/rplidar_slam', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'abhay'), ('GIT_ASKPASS', '/home/abhay/.vscode-server/bin/585eba7c0c34fd6b30faac7c62a42050bfbc0086/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/abhay'), ('OLDPWD', '/home/abhay/rplidar_slam_ws'), ('TERM_PROGRAM_VERSION', '1.108.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-2ab34ff7-ba0a-470d-a89c-eb0b4f5f43ac.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/abhay/.vscode-server/bin/585eba7c0c34fd6b30faac7c62a42050bfbc0086/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/abhay/.vscode-server/bin/585eba7c0c34fd6b30faac7c62a42050bfbc0086/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/abhay/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/abhay/rplidar_slam_ws/install:/home/abhay/ros2_ws/install:/home/abhay/lidar_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'abhay'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/8156_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/abhay/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/abhay/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/abhay/.vscode-server/bin/585eba7c0c34fd6b30faac7c62a42050bfbc0086/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Git/mingw64/bin:/mnt/c/Program Files/Git/usr/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Users/Nitro V15/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Nitro V15/AppData/Local/Python/bin:/mnt/c/Users/Nitro V15/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Nitro V15/AppData/Local/Microsoft/WinGet/Packages/DenoLand.Deno_Microsoft.Winget.Source_8wekyb3d8bbwe:/mnt/c/Users/Nitro V15/AppData/Roaming/npm:/snap/bin:/home/abhay/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/abhay/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-23a5f10f54def7dc.txt'), ('LANG', 'C.UTF-8'), ('PYTHONSTARTUP', '/home/abhay/.vscode-server/data/User/workspaceStorage/a08e76aa30c9716f2277dd3a7193500d/ms-python.python/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-fc9152817e.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/abhay/rplidar_slam_ws/install/rplidar_slam:/home/abhay/ros2_ws/install/my_robot_slam:/home/abhay/ros2_ws/install/my_robot_gazebo:/home/abhay/ros2_ws/install/my_robot_description:/home/abhay/ros2_ws/install/my_robot_bringup:/home/abhay/ros2_ws/install/articubot_one:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/abhay/rplidar_slam_ws/build/rplidar_slam'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/abhay/rplidar_slam_ws/install/rplidar_slam:/home/abhay/ros2_ws/install/my_robot_slam:/home/abhay/ros2_ws/install/my_robot_gazebo:/home/abhay/ros2_ws/install/my_robot_description:/home/abhay/ros2_ws/install/my_robot_bringup:/home/abhay/ros2_ws/install/articubot_one:/opt/ros/humble'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:')]), 'shell': False}
+[0.099558] (-) TimerEvent: {}
+[0.200069] (-) TimerEvent: {}
+[0.300641] (-) TimerEvent: {}
+[0.401056] (-) TimerEvent: {}
+[0.471964] (rplidar_slam) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.501218] (-) TimerEvent: {}
+[0.601641] (-) TimerEvent: {}
+[0.702128] (-) TimerEvent: {}
+[0.802609] (-) TimerEvent: {}
+[0.903048] (-) TimerEvent: {}
+[1.003629] (-) TimerEvent: {}
+[1.104087] (-) TimerEvent: {}
+[1.171241] (rplidar_slam) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.204201] (-) TimerEvent: {}
+[1.304557] (-) TimerEvent: {}
+[1.405087] (-) TimerEvent: {}
+[1.505663] (-) TimerEvent: {}
+[1.606381] (-) TimerEvent: {}
+[1.634180] (rplidar_slam) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.706586] (-) TimerEvent: {}
+[1.807213] (-) TimerEvent: {}
+[1.874176] (rplidar_slam) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.884831] (rplidar_slam) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.887537] (rplidar_slam) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.888448] (rplidar_slam) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.894626] (rplidar_slam) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.907325] (-) TimerEvent: {}
+[2.007788] (-) TimerEvent: {}
+[2.108224] (-) TimerEvent: {}
+[2.140058] (rplidar_slam) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.151253] (rplidar_slam) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.151857] (rplidar_slam) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.152383] (rplidar_slam) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.171574] (rplidar_slam) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.208307] (-) TimerEvent: {}
+[2.308738] (-) TimerEvent: {}
+[2.409106] (-) TimerEvent: {}
+[2.420405] (rplidar_slam) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.509258] (-) TimerEvent: {}
+[2.535333] (rplidar_slam) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[2.609548] (-) TimerEvent: {}
+[2.632136] (rplidar_slam) StdoutLine: {'line': b'-- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.709645] (-) TimerEvent: {}
+[2.810137] (-) TimerEvent: {}
+[2.910595] (-) TimerEvent: {}
+[2.915524] (rplidar_slam) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.930813] (rplidar_slam) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.957439] (rplidar_slam) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.989034] (rplidar_slam) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.010723] (-) TimerEvent: {}
+[3.031376] (rplidar_slam) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.110871] (-) TimerEvent: {}
+[3.149574] (rplidar_slam) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.158278] (rplidar_slam) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.211037] (-) TimerEvent: {}
+[3.311507] (-) TimerEvent: {}
+[3.411941] (-) TimerEvent: {}
+[3.512336] (-) TimerEvent: {}
+[3.612744] (-) TimerEvent: {}
+[3.713312] (-) TimerEvent: {}
+[3.813828] (-) TimerEvent: {}
+[3.914335] (-) TimerEvent: {}
+[4.014812] (-) TimerEvent: {}
+[4.115268] (-) TimerEvent: {}
+[4.215774] (-) TimerEvent: {}
+[4.316205] (-) TimerEvent: {}
+[4.416687] (-) TimerEvent: {}
+[4.517137] (-) TimerEvent: {}
+[4.617597] (-) TimerEvent: {}
+[4.718069] (-) TimerEvent: {}
+[4.818555] (-) TimerEvent: {}
+[4.904732] (rplidar_slam) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[4.918714] (-) TimerEvent: {}
+[5.019294] (-) TimerEvent: {}
+[5.119921] (-) TimerEvent: {}
+[5.220492] (-) TimerEvent: {}
+[5.321010] (-) TimerEvent: {}
+[5.421439] (-) TimerEvent: {}
+[5.521900] (-) TimerEvent: {}
+[5.622369] (-) TimerEvent: {}
+[5.722829] (-) TimerEvent: {}
+[5.823295] (-) TimerEvent: {}
+[5.923980] (-) TimerEvent: {}
+[6.024499] (-) TimerEvent: {}
+[6.125014] (-) TimerEvent: {}
+[6.225616] (-) TimerEvent: {}
+[6.326503] (-) TimerEvent: {}
+[6.427517] (-) TimerEvent: {}
+[6.528161] (-) TimerEvent: {}
+[6.628618] (-) TimerEvent: {}
+[6.729093] (-) TimerEvent: {}
+[6.792520] (rplidar_slam) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[6.829219] (-) TimerEvent: {}
+[6.929623] (-) TimerEvent: {}
+[7.030096] (-) TimerEvent: {}
+[7.130580] (-) TimerEvent: {}
+[7.231020] (-) TimerEvent: {}
+[7.331654] (-) TimerEvent: {}
+[7.432511] (-) TimerEvent: {}
+[7.533112] (-) TimerEvent: {}
+[7.633518] (-) TimerEvent: {}
+[7.734011] (-) TimerEvent: {}
+[7.834556] (-) TimerEvent: {}
+[7.934977] (-) TimerEvent: {}
+[8.035542] (-) TimerEvent: {}
+[8.135959] (-) TimerEvent: {}
+[8.236446] (-) TimerEvent: {}
+[8.336954] (-) TimerEvent: {}
+[8.437480] (-) TimerEvent: {}
+[8.537980] (-) TimerEvent: {}
+[8.638470] (-) TimerEvent: {}
+[8.738931] (-) TimerEvent: {}
+[8.839395] (-) TimerEvent: {}
+[8.939894] (-) TimerEvent: {}
+[9.040425] (-) TimerEvent: {}
+[9.140825] (-) TimerEvent: {}
+[9.241299] (-) TimerEvent: {}
+[9.341786] (-) TimerEvent: {}
+[9.442289] (-) TimerEvent: {}
+[9.542766] (-) TimerEvent: {}
+[9.643225] (-) TimerEvent: {}
+[9.743889] (-) TimerEvent: {}
+[9.844415] (-) TimerEvent: {}
+[9.944904] (-) TimerEvent: {}
+[10.045416] (-) TimerEvent: {}
+[10.145193] (rplidar_slam) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[10.145458] (-) TimerEvent: {}
+[10.174457] (rplidar_slam) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[10.245641] (-) TimerEvent: {}
+[10.346079] (-) TimerEvent: {}
+[10.446607] (-) TimerEvent: {}
+[10.457258] (rplidar_slam) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[10.460439] (rplidar_slam) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[10.546727] (-) TimerEvent: {}
+[10.647215] (-) TimerEvent: {}
+[10.690466] (rplidar_slam) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[10.692141] (rplidar_slam) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[10.747344] (-) TimerEvent: {}
+[10.818175] (rplidar_slam) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[10.847547] (-) TimerEvent: {}
+[10.921787] (rplidar_slam) StdoutLine: {'line': b'-- Found tf2: 0.25.18 (/opt/ros/humble/share/tf2/cmake)\n'}
+[10.947713] (-) TimerEvent: {}
+[10.953318] (rplidar_slam) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.18 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[11.047874] (-) TimerEvent: {}
+[11.148439] (-) TimerEvent: {}
+[11.249089] (-) TimerEvent: {}
+[11.283392] (rplidar_slam) StdoutLine: {'line': b'-- Configuring done\n'}
+[11.300851] (rplidar_slam) StdoutLine: {'line': b'-- Generating done\n'}
+[11.307022] (rplidar_slam) StdoutLine: {'line': b'-- Build files have been written to: /home/abhay/rplidar_slam_ws/build/rplidar_slam\n'}
+[11.329243] (rplidar_slam) CommandEnded: {'returncode': 0}
+[11.330838] (rplidar_slam) JobProgress: {'identifier': 'rplidar_slam', 'progress': 'build'}
+[11.338984] (rplidar_slam) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/abhay/rplidar_slam_ws/build/rplidar_slam', '--', '-j12', '-l12'], 'cwd': '/home/abhay/rplidar_slam_ws/build/rplidar_slam', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'abhay'), ('GIT_ASKPASS', '/home/abhay/.vscode-server/bin/585eba7c0c34fd6b30faac7c62a42050bfbc0086/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/abhay'), ('OLDPWD', '/home/abhay/rplidar_slam_ws'), ('TERM_PROGRAM_VERSION', '1.108.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-2ab34ff7-ba0a-470d-a89c-eb0b4f5f43ac.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/abhay/.vscode-server/bin/585eba7c0c34fd6b30faac7c62a42050bfbc0086/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/abhay/.vscode-server/bin/585eba7c0c34fd6b30faac7c62a42050bfbc0086/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/abhay/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/abhay/rplidar_slam_ws/install:/home/abhay/ros2_ws/install:/home/abhay/lidar_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'abhay'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/8156_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/abhay/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/abhay/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/abhay/.vscode-server/bin/585eba7c0c34fd6b30faac7c62a42050bfbc0086/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Git/mingw64/bin:/mnt/c/Program Files/Git/usr/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Users/Nitro V15/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Nitro V15/AppData/Local/Python/bin:/mnt/c/Users/Nitro V15/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Nitro V15/AppData/Local/Microsoft/WinGet/Packages/DenoLand.Deno_Microsoft.Winget.Source_8wekyb3d8bbwe:/mnt/c/Users/Nitro V15/AppData/Roaming/npm:/snap/bin:/home/abhay/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/abhay/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-23a5f10f54def7dc.txt'), ('LANG', 'C.UTF-8'), ('PYTHONSTARTUP', '/home/abhay/.vscode-server/data/User/workspaceStorage/a08e76aa30c9716f2277dd3a7193500d/ms-python.python/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-fc9152817e.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/abhay/rplidar_slam_ws/install/rplidar_slam:/home/abhay/ros2_ws/install/my_robot_slam:/home/abhay/ros2_ws/install/my_robot_gazebo:/home/abhay/ros2_ws/install/my_robot_description:/home/abhay/ros2_ws/install/my_robot_bringup:/home/abhay/ros2_ws/install/articubot_one:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/abhay/rplidar_slam_ws/build/rplidar_slam'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/abhay/rplidar_slam_ws/install/rplidar_slam:/home/abhay/ros2_ws/install/my_robot_slam:/home/abhay/ros2_ws/install/my_robot_gazebo:/home/abhay/ros2_ws/install/my_robot_description:/home/abhay/ros2_ws/install/my_robot_bringup:/home/abhay/ros2_ws/install/articubot_one:/opt/ros/humble'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:')]), 'shell': False}
+[11.349171] (-) TimerEvent: {}
+[11.412763] (rplidar_slam) CommandEnded: {'returncode': 0}
+[11.414202] (rplidar_slam) JobProgress: {'identifier': 'rplidar_slam', 'progress': 'install'}
+[11.431291] (rplidar_slam) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/abhay/rplidar_slam_ws/build/rplidar_slam'], 'cwd': '/home/abhay/rplidar_slam_ws/build/rplidar_slam', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'abhay'), ('GIT_ASKPASS', '/home/abhay/.vscode-server/bin/585eba7c0c34fd6b30faac7c62a42050bfbc0086/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/abhay'), ('OLDPWD', '/home/abhay/rplidar_slam_ws'), ('TERM_PROGRAM_VERSION', '1.108.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-2ab34ff7-ba0a-470d-a89c-eb0b4f5f43ac.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/abhay/.vscode-server/bin/585eba7c0c34fd6b30faac7c62a42050bfbc0086/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/abhay/.vscode-server/bin/585eba7c0c34fd6b30faac7c62a42050bfbc0086/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/abhay/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/abhay/rplidar_slam_ws/install:/home/abhay/ros2_ws/install:/home/abhay/lidar_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'abhay'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/8156_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/abhay/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/abhay/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/abhay/.vscode-server/bin/585eba7c0c34fd6b30faac7c62a42050bfbc0086/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Git/mingw64/bin:/mnt/c/Program Files/Git/usr/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Users/Nitro V15/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Nitro V15/AppData/Local/Python/bin:/mnt/c/Users/Nitro V15/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Nitro V15/AppData/Local/Microsoft/WinGet/Packages/DenoLand.Deno_Microsoft.Winget.Source_8wekyb3d8bbwe:/mnt/c/Users/Nitro V15/AppData/Roaming/npm:/snap/bin:/home/abhay/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/abhay/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-23a5f10f54def7dc.txt'), ('LANG', 'C.UTF-8'), ('PYTHONSTARTUP', '/home/abhay/.vscode-server/data/User/workspaceStorage/a08e76aa30c9716f2277dd3a7193500d/ms-python.python/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-fc9152817e.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/abhay/rplidar_slam_ws/install/rplidar_slam:/home/abhay/ros2_ws/install/my_robot_slam:/home/abhay/ros2_ws/install/my_robot_gazebo:/home/abhay/ros2_ws/install/my_robot_description:/home/abhay/ros2_ws/install/my_robot_bringup:/home/abhay/ros2_ws/install/articubot_one:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/abhay/rplidar_slam_ws/build/rplidar_slam'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/abhay/rplidar_slam_ws/install/rplidar_slam:/home/abhay/ros2_ws/install/my_robot_slam:/home/abhay/ros2_ws/install/my_robot_gazebo:/home/abhay/ros2_ws/install/my_robot_description:/home/abhay/ros2_ws/install/my_robot_bringup:/home/abhay/ros2_ws/install/articubot_one:/opt/ros/humble'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:')]), 'shell': False}
+[11.444078] (rplidar_slam) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.445007] (rplidar_slam) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[11.448903] (rplidar_slam) StdoutLine: {'line': b'-- Symlinking: /home/abhay/rplidar_slam_ws/install/rplidar_slam/share/rplidar_slam//launch/rplidar.launch.py\n'}
+[11.449306] (-) TimerEvent: {}
+[11.466883] (rplidar_slam) StdoutLine: {'line': b'-- Symlinking: /home/abhay/rplidar_slam_ws/install/rplidar_slam/share/rplidar_slam//launch/rplidar_rviz.launch.py\n'}
+[11.485150] (rplidar_slam) StdoutLine: {'line': b'-- Symlinking: /home/abhay/rplidar_slam_ws/install/rplidar_slam/share/rplidar_slam//launch/slam.launch.py\n'}
+[11.503671] (rplidar_slam) StdoutLine: {'line': b'-- Symlinking: /home/abhay/rplidar_slam_ws/install/rplidar_slam/share/rplidar_slam//rviz/rplidar.rviz\n'}
+[11.520449] (rplidar_slam) StdoutLine: {'line': b'-- Symlinking: /home/abhay/rplidar_slam_ws/install/rplidar_slam/share/rplidar_slam//rviz/slam.rviz\n'}
+[11.537779] (rplidar_slam) StdoutLine: {'line': b'-- Symlinking: /home/abhay/rplidar_slam_ws/install/rplidar_slam/share/ament_index/resource_index/package_run_dependencies/rplidar_slam\n'}
+[11.549494] (-) TimerEvent: {}
+[11.554743] (rplidar_slam) StdoutLine: {'line': b'-- Symlinking: /home/abhay/rplidar_slam_ws/install/rplidar_slam/share/ament_index/resource_index/parent_prefix_path/rplidar_slam\n'}
+[11.573918] (rplidar_slam) StdoutLine: {'line': b'-- Symlinking: /home/abhay/rplidar_slam_ws/install/rplidar_slam/share/rplidar_slam/environment/ament_prefix_path.sh\n'}
+[11.589644] (rplidar_slam) StdoutLine: {'line': b'-- Symlinking: /home/abhay/rplidar_slam_ws/install/rplidar_slam/share/rplidar_slam/environment/ament_prefix_path.dsv\n'}
+[11.605676] (rplidar_slam) StdoutLine: {'line': b'-- Symlinking: /home/abhay/rplidar_slam_ws/install/rplidar_slam/share/rplidar_slam/environment/path.sh\n'}
+[11.621192] (rplidar_slam) StdoutLine: {'line': b'-- Symlinking: /home/abhay/rplidar_slam_ws/install/rplidar_slam/share/rplidar_slam/environment/path.dsv\n'}
+[11.639026] (rplidar_slam) StdoutLine: {'line': b'-- Symlinking: /home/abhay/rplidar_slam_ws/install/rplidar_slam/share/rplidar_slam/local_setup.bash\n'}
+[11.649591] (-) TimerEvent: {}
+[11.657265] (rplidar_slam) StdoutLine: {'line': b'-- Symlinking: /home/abhay/rplidar_slam_ws/install/rplidar_slam/share/rplidar_slam/local_setup.sh\n'}
+[11.676684] (rplidar_slam) StdoutLine: {'line': b'-- Symlinking: /home/abhay/rplidar_slam_ws/install/rplidar_slam/share/rplidar_slam/local_setup.zsh\n'}
+[11.693708] (rplidar_slam) StdoutLine: {'line': b'-- Symlinking: /home/abhay/rplidar_slam_ws/install/rplidar_slam/share/rplidar_slam/local_setup.dsv\n'}
+[11.712161] (rplidar_slam) StdoutLine: {'line': b'-- Symlinking: /home/abhay/rplidar_slam_ws/install/rplidar_slam/share/rplidar_slam/package.dsv\n'}
+[11.729904] (rplidar_slam) StdoutLine: {'line': b'-- Symlinking: /home/abhay/rplidar_slam_ws/install/rplidar_slam/share/ament_index/resource_index/packages/rplidar_slam\n'}
+[11.749745] (-) TimerEvent: {}
+[11.750207] (rplidar_slam) StdoutLine: {'line': b'-- Symlinking: /home/abhay/rplidar_slam_ws/install/rplidar_slam/share/rplidar_slam/cmake/rplidar_slamConfig.cmake\n'}
+[11.770793] (rplidar_slam) StdoutLine: {'line': b'-- Symlinking: /home/abhay/rplidar_slam_ws/install/rplidar_slam/share/rplidar_slam/cmake/rplidar_slamConfig-version.cmake\n'}
+[11.788742] (rplidar_slam) StdoutLine: {'line': b'-- Symlinking: /home/abhay/rplidar_slam_ws/install/rplidar_slam/share/rplidar_slam/package.xml\n'}
+[11.811417] (rplidar_slam) CommandEnded: {'returncode': 0}
+[11.840952] (rplidar_slam) JobEnded: {'identifier': 'rplidar_slam', 'rc': 0}
+[11.842785] (-) EventReactorShutdown: {}

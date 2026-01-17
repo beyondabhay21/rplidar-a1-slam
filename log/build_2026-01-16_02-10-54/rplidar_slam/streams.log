@@ -1,0 +1,44 @@
+[0.026s] Invoking command in '/home/abhay/rplidar_slam_ws/build/rplidar_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/abhay/rplidar_slam_ws/build/rplidar_slam -- -j12 -l12
+[0.072s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.271s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.283s] -- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+[0.486s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.490s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.499s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.514s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.533s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.579s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.582s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[7.219s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.284s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[7.320s] -- Found tf2: 0.25.18 (/opt/ros/humble/share/tf2/cmake)
+[7.324s] -- Found tf2_ros: 0.25.18 (/opt/ros/humble/share/tf2_ros/cmake)
+[7.543s] -- Configuring done
+[7.554s] -- Generating done
+[7.561s] -- Build files have been written to: /home/abhay/rplidar_slam_ws/build/rplidar_slam
+[7.610s] Invoked command in '/home/abhay/rplidar_slam_ws/build/rplidar_slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/abhay/rplidar_slam_ws/build/rplidar_slam -- -j12 -l12
+[7.629s] Invoking command in '/home/abhay/rplidar_slam_ws/build/rplidar_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/abhay/rplidar_slam_ws/build/rplidar_slam
+[7.641s] -- Install configuration: ""
+[7.643s] -- Execute custom install script
+[7.643s] -- Up-to-date symlink: /home/abhay/rplidar_slam_ws/install/rplidar_slam/share/rplidar_slam//launch/rplidar.launch.py
+[7.644s] -- Up-to-date symlink: /home/abhay/rplidar_slam_ws/install/rplidar_slam/share/rplidar_slam//launch/rplidar_rviz.launch.py
+[7.644s] -- Up-to-date symlink: /home/abhay/rplidar_slam_ws/install/rplidar_slam/share/rplidar_slam//launch/rplidar_slam_fixed.launch.py
+[7.645s] -- Up-to-date symlink: /home/abhay/rplidar_slam_ws/install/rplidar_slam/share/rplidar_slam//rviz/rplidar.rviz
+[7.646s] -- Up-to-date symlink: /home/abhay/rplidar_slam_ws/install/rplidar_slam/share/rplidar_slam//rviz/slam.rviz
+[7.646s] -- Up-to-date symlink: /home/abhay/rplidar_slam_ws/install/rplidar_slam/lib/rplidar_slam/fake_odom.py
+[7.647s] -- Up-to-date symlink: /home/abhay/rplidar_slam_ws/install/rplidar_slam/share/ament_index/resource_index/package_run_dependencies/rplidar_slam
+[7.648s] -- Up-to-date symlink: /home/abhay/rplidar_slam_ws/install/rplidar_slam/share/ament_index/resource_index/parent_prefix_path/rplidar_slam
+[7.648s] -- Up-to-date symlink: /home/abhay/rplidar_slam_ws/install/rplidar_slam/share/rplidar_slam/environment/ament_prefix_path.sh
+[7.648s] -- Up-to-date symlink: /home/abhay/rplidar_slam_ws/install/rplidar_slam/share/rplidar_slam/environment/ament_prefix_path.dsv
+[7.649s] -- Up-to-date symlink: /home/abhay/rplidar_slam_ws/install/rplidar_slam/share/rplidar_slam/environment/path.sh
+[7.649s] -- Up-to-date symlink: /home/abhay/rplidar_slam_ws/install/rplidar_slam/share/rplidar_slam/environment/path.dsv
+[7.650s] -- Up-to-date symlink: /home/abhay/rplidar_slam_ws/install/rplidar_slam/share/rplidar_slam/local_setup.bash
+[7.650s] -- Up-to-date symlink: /home/abhay/rplidar_slam_ws/install/rplidar_slam/share/rplidar_slam/local_setup.sh
+[7.651s] -- Up-to-date symlink: /home/abhay/rplidar_slam_ws/install/rplidar_slam/share/rplidar_slam/local_setup.zsh
+[7.651s] -- Up-to-date symlink: /home/abhay/rplidar_slam_ws/install/rplidar_slam/share/rplidar_slam/local_setup.dsv
+[7.651s] -- Symlinking: /home/abhay/rplidar_slam_ws/install/rplidar_slam/share/rplidar_slam/package.dsv
+[7.669s] -- Up-to-date symlink: /home/abhay/rplidar_slam_ws/install/rplidar_slam/share/ament_index/resource_index/packages/rplidar_slam
+[7.670s] -- Up-to-date symlink: /home/abhay/rplidar_slam_ws/install/rplidar_slam/share/rplidar_slam/cmake/rplidar_slamConfig.cmake
+[7.670s] -- Up-to-date symlink: /home/abhay/rplidar_slam_ws/install/rplidar_slam/share/rplidar_slam/cmake/rplidar_slamConfig-version.cmake
+[7.670s] -- Up-to-date symlink: /home/abhay/rplidar_slam_ws/install/rplidar_slam/share/rplidar_slam/package.xml
+[7.674s] Invoked command in '/home/abhay/rplidar_slam_ws/build/rplidar_slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/abhay/rplidar_slam_ws/build/rplidar_slam
